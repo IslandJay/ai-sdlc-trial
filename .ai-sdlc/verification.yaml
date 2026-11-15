@@ -1,0 +1,6 @@
+# Verification commands (AISDLC-1263). Omit a key to skip that step.
+verification:
+  build: "pnpm build"
+  test: "pnpm test"
+  lint: "pnpm lint"
+  format: "pnpm format:check"
