@@ -1,2 +1,9 @@
 node_modules/
 dist/
+
+# ai-sdlc:runtime-gitignore
+.ai-sdlc/state.db
+.ai-sdlc/state/
+.ai-sdlc/audit.jsonl
+.ai-sdlc/artifacts/
+.ai-sdlc/subagent-sessions/

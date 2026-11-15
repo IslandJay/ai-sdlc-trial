@@ -1,0 +1,14 @@
+## Required capabilities.
+##
+## Copy this file to .ai-sdlc/capabilities.yaml and commit it to the default branch.
+## It is read from the default branch only. List the capability ids you expect to be
+## live. A listed capability that is degraded or never observed makes the doctor
+## capability-liveness check fail and files one Decision per day; nothing is ever
+## blocked. An empty list changes nothing.
+
+apiVersion: ai-sdlc.io/v1alpha1
+kind: CapabilitiesConfig
+metadata:
+  name: capabilities
+spec:
+  required: []
